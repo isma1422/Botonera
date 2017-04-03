@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">La Botonera de Mobility</string>
+    <string name="title_activity_main">La Botonera de Mobility</string>
+    <string name="title_file_chooser">Elige un archivo</string>
+    <string name="title_activity_select_file">SelectFile</string>
+    <string name="btn_examinar">Examinar</string>
+    <string name="btn_play">Reproducir</string>
+    <string name="btn_back">Atras</string>
+    <string name="hint_sound_name">Nombre del boton</string>
+    <string name="not_valid_extension">El archivo no es un audio valido.</string>
+    <string name="button_added_success">Boton agregado!</string>
+    <string name="record_name_error">Ingrese el nombre del boton antes de grabar</string>
+    <string name="title_activity_share">ShareActivity</string>
+</resources>
