@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j-ogg-theorad">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/j-ogg-theorad.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

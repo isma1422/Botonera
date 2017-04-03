@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libjitsi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/libjitsi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

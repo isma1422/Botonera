@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j-ogg-jmfd">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/j-ogg-jmfd.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

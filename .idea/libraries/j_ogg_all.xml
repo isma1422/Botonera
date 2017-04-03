@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j-ogg-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/j-ogg-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
