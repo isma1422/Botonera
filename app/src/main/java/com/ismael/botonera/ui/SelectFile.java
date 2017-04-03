@@ -243,25 +243,6 @@ public class SelectFile extends AppCompatActivity {
         }
     }
 
-    //Metodo para decodificar opus file
-    private byte[] decode(byte[] packetData){
-        int frameSize = Opus.decoder_get_nb_samples(opusState, packetData, 0, packetData.length);
-        int decodedSamples = Opus.decode(opusState,packetData,0, packetData.length,decodeBuffer.array(),0,frameSize,0);
-
-        if(decodedSamples < 0){
-            Toast.makeText(SelectFile.this,"Decode Error: " + decodedSamples,Toast.LENGTH_LONG).show();
-            decodeBuffer.clear();
-            return null;
-        }
-        decodeBuffer.position(decodedSamples * 2); // 2 bytes per sample
-        decodeBuffer.flip();
-
-        byte[] decodedData = new byte[decodeBuffer.remaining()];
-        decodeBuffer.get(decodedData);
-        decodeBuffer.flip();
-        return decodedData;
-    }
-
 
     public boolean isValidFile(String extension){
         boolean isValid = false;
